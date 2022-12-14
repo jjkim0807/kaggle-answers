@@ -1,0 +1,18 @@
+# sample config defaults file
+is_train:
+  value: True
+is_test:
+  value: True
+
+data_path:
+  value: data
+train_file_len:
+  value: 891
+model_path:
+  value: models
+
+train_dev_ratio:
+  value: { train: 0.7, dev: 0.3 }
+
+batch_size:
+  value: 5
