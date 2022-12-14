@@ -13,8 +13,6 @@ class Test_wandb_config(unittest.TestCase):
         self.assertTrue(wandb.config.is_test)
         self.assertEqual(wandb.config.data_path, "data")
         self.assertEqual(wandb.config.model_path, "models")
-        self.assertEqual(wandb.config.train_ratio, 0.7)
-        self.assertEqual(wandb.config.dev_ratio, 0.3)
 
 
 if __name__ == '__main__':
